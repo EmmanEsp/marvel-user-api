@@ -8,6 +8,7 @@ authors = ["jemmanespavi"]
 python = "^3.10"
 fastapi = "^0.75.2"
 uvicorn = "^0.17.6"
+motor = "^2.5.1"
 
 [tool.poetry.dev-dependencies]
 
