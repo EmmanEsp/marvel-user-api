@@ -5,6 +5,7 @@ from pydantic import BaseSettings
 
 class SecuritySettings(BaseSettings):
 
+    secret_key: str
     secure_keyword: str
 
 
